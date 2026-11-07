@@ -53,6 +53,8 @@ spec:
               value: "Asia/Hong_Kong"
             - name: OMNIROUTE_MEMORY_MB
               value: "8192"
+            - name: MODELS_CATALOG_PREFIX_MODE
+              value: "canonical"
           resources:
             requests:
               cpu: "200m"
